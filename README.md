@@ -1,5 +1,7 @@
 # py3stun
 
+[![PyPI version](https://badge.fury.io/py/py3stun.svg)](https://badge.fury.io/py/py3stun)
+
 Python 3 fork of [pystun](https://github.com/jtriley/pystun)
 
 A Python STUN client for getting NAT type and external IP.
@@ -8,6 +10,12 @@ A Python STUN client for getting NAT type and external IP.
 
 ```bash
 python -m pip install .
+```
+
+or
+
+```bash
+python -m pip install py3stun
 ```
 
 ## Usage
