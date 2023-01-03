@@ -4,13 +4,13 @@ Python 3 fork of [pystun](https://github.com/jtriley/pystun)
 
 A Python STUN client for getting NAT type and external IP.
 
-# Install
+## Install
 
 ```bash
 python -m pip install .
 ```
 
-# Usage
+## Usage
 
 ```powershell
 $ python py3stun.py -h
@@ -32,13 +32,13 @@ options:
   --version             show program's version number and exit
 ```
 
-# Run
+## Run
 
 ```powershell
 $ py3stun.exe --debug
 ```
 
-# Sample Output
+## Sample Output
 
 ```
 2023-01-02 22:20:22,240 - pystun.get_nat_type - DEBUG - Do Test1
