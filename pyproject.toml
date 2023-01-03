@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py3stun"
+version = "0.1.0"
+authors = [
+  { name="Nemo Xiong (original author: Justin Riley and gaohawk)", email="xiongnemo@126.com'" },
+]
+description = "A Python STUN client for getting NAT type and external IP (RFC 3489)"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+
+    "License :: OSI Approved :: MIT License",
+
+    "Operating System :: OS Independent",
+
+    'Development Status :: 4 - Beta',
+
+    'Topic :: Internet',
+    'Topic :: System :: Networking :: Firewalls',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xiongnemo/py3stun"
+"Bug Tracker" = "https://github.com/xiongnemo/py3stun/issues"
+
+[project.scripts]
+py3stun = "stun.cli:main"
